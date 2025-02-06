@@ -1,0 +1,35 @@
+/* Footer.css */
+
+footer {
+  margin-top: 25px;
+  background-color: #eeeeec;
+  color: black;
+  padding: 20px;
+  display: flex;
+  border-radius: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer div {
+  font-weight: bold;
+}
+
+footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 5px;
+}
+
+.social-icons a {
+  color: black;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+.social-icons a:hover {
+  opacity: 0.7;
+}

@@ -1,0 +1,12 @@
+.details-form textarea {
+	width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1.5px solid #ccc;
+    resize: none;
+}
+
+#healthfacilityname{
+    color: black;
+    width: 95%;
+}

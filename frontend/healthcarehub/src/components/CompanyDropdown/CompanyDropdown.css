@@ -1,0 +1,60 @@
+.company-dropdown {
+  position: relative; /* Necessary for positioning the dropdown content */
+  display: inline-block; /* Allows the dropdown to be placed inline with text */
+}
+
+.company-dropdown button {
+  margin-top: 0;
+  cursor: pointer;
+  padding: 1px 1px;
+  border: 1px solid transparent; /* Adjust border style as needed */
+  border-radius: 10px;
+  /*font-size: large;*/
+  background-color: transparent;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.company-dropdown button:hover {
+  background-color: transparent; /* Adjust hover color as needed */
+}
+
+.company-dropdown button i {
+  margin-left: 5px; /* Adjust icon spacing as needed */
+}
+
+.company-dropdown .medical-record-drop-down {
+  position: absolute;
+  top: 100%; /* Position the dropdown below the button */
+  left: 0;
+  background-color: rgb(0 0 0 / 70%); /* Adjust background color as needed */
+  border: 1px solid transparent; /* Adjust border style as needed */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  padding: 5px;
+  list-style: none;
+  padding: 20%;
+  margin: 0;
+  width: max-content;
+}
+
+.company-dropdown .medical-record-drop-down a {
+  text-decoration: none;
+  width: max-content;
+  display: block;
+  padding: 5%;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.company-dropdown .medical-record-drop-down a:hover {
+  background-color: black; /* Adjust hover color as needed */
+}
+
+.company-dropdown {
+  background-color: rgb(0 0 0 / 70%);
+}
+
+.medical-record-drop-down {
+background-color: rgb(0 0 0 / 70%);
+}

@@ -1,0 +1,98 @@
+.chatbox-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.chatIcon {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  z-index: 10000; /* Ensure chat icon is above the chatbox */
+}
+
+.chatIcon img {
+  width: 100%;
+  height: 100%;
+}
+
+.chatIcon.active {
+  transform: scale(1.1);
+}
+
+.chatbox {
+  position: fixed;
+  bottom: 100px; /* Adjusted position to prevent overlap */
+  right: 3%;
+  max-width:400px;
+  background-color: rgb(28 27 27 / 80%);
+  border: 1px solid rgb(28 27 27 / 80%);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  color: white;
+}
+
+.chatbox-header {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 20px 20px 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chatbox-header-title {
+  font-size: 18px;
+}
+
+.chatbox-header-close {
+  cursor: pointer;
+}
+
+.chatbox-body {
+  padding: 20px;
+}
+
+.chatbox-message {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.chatbox-buttons {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+
+.forum-form select {    
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 17px;
+    height: 60px;
+    width: 95%;
+    height: auto;
+}

@@ -1,0 +1,115 @@
+.user-profile {
+  background-color: rgb(3 15 39 / 96%);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  margin-left: 30%;
+  margin-bottom: 30%;
+}
+
+
+/* Styles for mobile */
+@media (max-width: 767px) {
+
+  .user-profile {
+  width: fit-content;
+  margin-left: 0%;
+  padding-bottom: 15%;
+
+}
+
+  input[type="text"] {
+    padding: 3px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+   height: 40px;
+   font-weight: bold;
+  }
+
+}
+
+
+.user-list li{
+  list-style: none;
+  border: 1px solid white;
+  border-radius: 40px;
+  padding: 2%;
+  margin-bottom: 5%;
+}
+
+.user-profile h2 {
+  margin-bottom: 20px;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+
+}
+
+textarea  {
+    width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1.5px solid black;
+    resize: none;
+    color: black;
+    font-size: smaller;
+
+}
+
+.user-profile form {
+  margin-bottom: 20px;
+}
+
+
+/* Styles for mobile */
+@media (min-width: 767px) {
+.user-profile input[type="text"] {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+ height: 30px;
+ font-weight: bold;
+}
+}
+
+.user-profile button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  ont-weight: bold;
+}
+
+.user-profile button:hover {
+  background-color: #0056b3;
+}
+
+.user-profile div {
+  /*margin-bottom: 20px;*/
+}
+
+.user-profile p {
+  margin: 10px 0;
+}
+
+.user-profile .input-row {
+  display: flex;
+  margin-bottom: 5px
+}
+
+.user-profile .input-row > div {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.user-profile .input-row > div:last-child {
+  margin-right: 0;
+}

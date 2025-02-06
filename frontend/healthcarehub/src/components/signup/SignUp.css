@@ -1,0 +1,131 @@
+/* SignUpPage.css */
+
+
+
+.signup-form {
+  width: 500px;
+  margin-top: 10px;
+  background-color: rgb(28 27 27 / 80%);
+  color: white;
+  padding: 20px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-container {
+    width: -webkit-fill-available;
+    max-width: 600px;
+    justify-content: center;
+  }
+
+.pharmacist-container{
+    width: -webkit-fill-available;
+    max-width: 600px;
+    justify-content: center;
+}
+
+.details-form {
+     width: 500px; 
+    background-color: rgb(28 27 27 / 80%);
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 1%;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+input[type="checkbox"] {
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 40px;
+  height: 20px;
+}
+
+.toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0; /* Adjusted to cover the entire toggle area */
+  background-color: #ccc;
+  transition: background-color 0.4s;
+  border-radius: 20px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: transform 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #007bff;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #007bff;
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 20px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/* Style the login button */
+.details-form button , 
+.signup-form button {
+  height: 50px;
+  font-weight: bold;
+  width: 95%;
+  padding: 10px;
+  margin-top: 10px; /* Add margin to separate from form fields */
+  border: none;
+  border-radius: 10px;
+  background-color: #007bff; /* Change background color to your preferred color */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add transition for hover effect */
+}
+
+.details-form button:hover , 
+.signup-form button:hover {
+  background-color: #0056b3; /* Change hover background color to your preferred color */
+}

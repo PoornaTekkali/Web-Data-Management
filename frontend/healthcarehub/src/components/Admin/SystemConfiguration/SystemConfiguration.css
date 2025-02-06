@@ -1,0 +1,96 @@
+
+
+.systemconfiguration {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.systemconfiguration{
+  background-color: rgb(3 15 39 / 96%);
+  /*background-color: white;*/
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /*width: 100%;*/
+  align-items: center;
+}
+
+.systemconfiguration h2 , h1 {
+  align-items: center;
+  text-align: center;
+  font-size: 150%;
+}
+
+.systemconfiguration ul{
+padding: inherit;
+}
+.systemconfiguration li{
+  list-style: none;
+  border: 1px solid white;
+  border-radius: 40px;
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
+.systemconfiguration h3 {
+  margin-top: 15px;
+}
+
+.systemconfiguration select {
+    size: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 18px;
+    height: 40px;
+    width: 100%;
+    height: auto;
+}
+/*.systemconfiguration label {
+  display: inline-block;
+  width: 80px;
+  margin-right: 10px;
+  font-weight: bold;
+}*/
+
+.systemconfiguration input[type="text"] {
+  width: -webkit-fill-available;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 15px;
+  /*background-color: rgba(59, 59, 59, 0.3);*/
+}
+
+.systemconfiguration input[type="text"].editable {
+  background-color: white;
+  color: black;
+}
+
+.systemconfiguration button {
+  width: 40%;
+  padding: 8px 15px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.systemconfiguration button:hover {
+  background-color: #0056b3;
+}
+
+.systemconfiguration button[type="submit"] {
+  background-color: #28a745;
+  width: 100%;
+}
+
+.systemconfiguration button[type="submit"]:hover {
+  background-color: #218838;
+}

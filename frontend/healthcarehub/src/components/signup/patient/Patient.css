@@ -1,0 +1,40 @@
+.details-form h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.details-form select {
+  width: 95%;
+  padding: 10px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1.5px solid #ccc;
+}
+
+.user-profile select {
+  width: 95%;
+  padding: 10px;
+  height: 50px;
+  border-radius: 10px;
+  border: 1.5px solid #ccc;
+}
+
+#primarycareprovider{
+    color: black;
+    width: 95%;
+    border-radius: 10px;
+}
+
+
+
+select:disabled {
+    width: 95%;
+    padding: 10px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1.5px solid #ccc;
+    color: black;
+    font-weight: bold;
+    background-color: light-dark(rgba(239, 239, 239, 0.3), rgba(59, 59, 59, 0.3));
+}

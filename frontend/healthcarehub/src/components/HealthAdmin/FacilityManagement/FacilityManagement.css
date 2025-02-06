@@ -1,0 +1,191 @@
+
+
+.facilitymanagement {
+  margin-left: 10%;
+
+}
+
+.facilitymanagement-pagination-container label{
+  width: 30%;
+  padding: 10px;
+  font-size: 18px;
+  height: 40px;
+  color: white;
+}
+
+.facilitymanagement-pagination-container select{
+  width: 25%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 18px;
+  height: 40px;
+}
+
+.facilitymanagement-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 3%;
+  color: black;
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+    color: white;
+    background-color: rgb(3 15 39 / 96%);
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Styles for mobile */
+@media (max-width: 767px) {
+  .facilitymanagement-filter-container button{
+    width: 6rem;
+      height: 2.5rem;
+      font-size: 14px;
+    }
+
+
+.facilitymanagement-filter-container input,
+.facilitymanagement-filter-container select{
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 14px;
+  height: 20px;
+}
+
+.facilitymanagement-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 3%;
+  color: black;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: small;
+    color: white;
+    background-color: rgb(3 15 39 / 96%);
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+}
+
+
+
+
+.facilitymanagement-filter-container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+  padding: 2%;
+  margin-bottom: 20px;
+  padding: 2%;
+}
+
+.facilitymanagement-filter-container select {
+  width: 239px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 18px;
+  height: 45px;
+}
+
+
+
+
+
+
+.facilitymanagement-filter-container select{
+  height: 60px;
+}
+
+
+/* Styles for web */
+@media (min-width: 767px) {
+  .facilitymanagement-filter-container button {
+    width: 15rem;
+    height: 3rem;
+    font-size: 24px;
+  }
+
+.facilitymanagement-filter-container input,
+.facilitymanagement-filter-container select{
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 18px;
+  height: 40px;
+}
+
+.facilitymanagement-filter-container input{
+  width: 400px;
+  height: 30px;
+}
+}
+
+
+.facilitymanagement-filter-container button {
+      margin-top: 20px; 
+    padding: 10px 20px;
+    background-color: 007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+} 
+
+
+
+.facilitymanagement-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+}
+
+
+.facilitymanagement-card {
+  background-color: rgb(28 27 27 / 80%);
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  width: 70%;
+  color: white;
+}
+
+
+
+
+.facilitymanagement-pagination-container {
+  display: flex;
+  justify-content: center;
+  padding: 3%;
+}
+
+.facilitymanagement-pagination-buttons button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.facilitymanagement-description {
+  max-height: 3em; /* Adjust as needed for two lines */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2; /* Number of lines to show */
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+}

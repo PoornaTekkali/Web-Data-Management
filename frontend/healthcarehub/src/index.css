@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+li {
+  list-style: none;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+body p,a,h3 {
+  font-size: 12px;
+}
+
+
+
+
+h2 ,table th {
+  font-size: 9px;
+}
+
+h1 {
+  font-size: 17px;
+}
+
+label , button {
+  font-size: 11px;
+}
+
+li {
+  font-size: 11px;
+  list-style: none;
+}
+table td {
+  font-size: 11px;
+  }
+  textarea{
+font-size: 10px;
+}
+.form-group {
+  margin-bottom: 7px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="time"] {
+  width: 90%;
+  height: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1.5px solid #ccc;
+  font-size: x-small;
+}
+
+
+
+
+}
+
+
+@media only screen and (min-width: 601px) {
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="time"] {
+  width: 90%;
+  height: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1.5px solid #ccc;
+}
+
+button {
+  font-size: small;
+}
+
+
+}
+
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('../public/3734225.jpg'); 
+  background-size: cover;
+  /*background: #ddd;*/
+  background-position: center;
+  
+}
+
+label {
+  font-weight: bold;
+}
+
+
+
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+.form-links {
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.form-links a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.form-links a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+.success-message {
+  color: green;
+}
+
+.success-message {
+    color: rgb(61 116 20);
+    background-color: rgb(207 234 212);
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 90%;
+
+}
+
+.error-message {
+    color: rgb(215, 92, 84);
+    background-color: rgb(234, 207, 210);
+    padding: 10px 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    width: 90%;
+
+}
+

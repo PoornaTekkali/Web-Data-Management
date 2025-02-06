@@ -1,0 +1,97 @@
+.pastIllnesses-history {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+/* Styles for mobile */
+@media (max-width: 767px) {
+.pastIllnesses-history {
+  margin: 0;
+  }
+
+.pastIllnesses-history input[type="text"] {
+  height: auto;
+  margin-bottom: 5px;
+}
+}
+
+
+.pastIllnesses-history{
+  background-color: rgb(3 15 39 / 96%);
+  /*background-color: white;*/
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  align-items: center;
+}
+
+.pastIllnesses-history h2 {
+  align-items: center;
+  text-align: center;
+  font-size: 150%;
+}
+
+.pastIllnesses-history ul{
+padding: inherit;
+}
+.pastIllnesses-history li{
+  list-style: none;
+  border: 1px solid white;
+  border-radius: 40px;
+  padding: 5%;
+  margin-bottom: 5%;
+}
+
+.pastIllnesses-history h3 {
+  margin-top: 15px;
+}
+
+.pastIllnesses-history label {
+  display: inline-block;
+  width: 80px;
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.pastIllnesses-history input[type="text"] {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  /*background-color: rgba(59, 59, 59, 0.3);*/
+  color: white;
+}
+
+.pastIllnesses-history input[type="text"].editable {
+  background-color: white;
+  color: black;
+}
+
+.pastIllnesses-history button {
+  width: 30%;
+  padding: 8px 15px;
+  margin-top: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pastIllnesses-history button:hover {
+  background-color: #0056b3;
+}
+
+.pastIllnesses-history button[type="submit"] {
+  background-color: #28a745;
+  width: 100%;
+}
+
+.pastIllnesses-history button[type="submit"]:hover {
+  background-color: #218838;
+}

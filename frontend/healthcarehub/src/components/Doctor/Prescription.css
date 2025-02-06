@@ -1,0 +1,57 @@
+.prescription{
+  background-color: rgb(3 15 39 / 96%);
+  /*background-color: white;*/
+  color: white;
+  padding: 2px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid white;
+  width: 100%;
+  align-items: center;
+}
+
+/* Styles for mobile */
+@media (max-width: 767px) {
+.prescription {
+  margin: 0;
+  width: fit-content;
+  }
+    .prescription input[type="text"] {
+  height: auto;
+  margin-bottom: 5px;
+  padding: 6px
+}
+}
+
+
+.prescription h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.prescription table th,
+.prescription table td {
+  border: 2px  white;
+  padding: 10px;
+  text-align: left;
+  text-align: center;
+}
+
+.prescription input[type="text"]{
+    width: 80%;
+    height: 25px;
+    /*padding: 10px;*/
+    border-radius: 10px;
+    border: 1.5px solid black;
+    color: black;
+  }
+
+.prescription select {
+  width: 130%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  /*font-size: 18px;*/
+  height: 40px;
+}

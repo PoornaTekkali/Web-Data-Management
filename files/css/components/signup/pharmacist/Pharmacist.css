@@ -1,0 +1,19 @@
+/* 
+Kota, Akash - 1002169574
+Nalajala , Mohana Krishna - 1002171159
+Lokanath Raju , Sirisha - 1002189752
+Safiuddin , Mohammad - 1002081263
+Tekkali, Poorna Pallavi - 1002160637
+*/
+.details-form textarea {
+	width: 90%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1.5px solid #ccc;
+    resize: none;
+}
+
+#healthfacilityname{
+    color: black;
+    width: 95%;
+}

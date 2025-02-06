@@ -1,0 +1,84 @@
+.user-appointment-management {
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+
+/* Styles for desktop */
+@media (min-width: 768px) {
+  .user-appointment-management-container {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 20px;
+  }
+}
+
+.user-calendar-container,
+.user-reason-container , 
+.user-calendar-container button{
+  width: 100%;
+  color: black;
+  border-radius: 4px;
+}
+
+
+/* Styles for mobile */
+@media (max-width: 767px) {
+  .user-appointment-management-container {
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+
+  
+  .user-calendar-container button{
+    width: 100%;
+  }
+}
+
+
+
+.user-reason-container input[type="time"]{
+  width: 90%;
+}
+
+.user-appointment-management-container h2{
+  color: white;
+  text-align: left;
+}
+
+.user-Calendar{
+  color: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.user-reason-container textarea {
+  width: 90%;
+  resize: vertical;
+  border-radius: 15px;
+  resize: none;
+}
+.user-confirm-appointment button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-confirm-appointment button:hover {
+  background-color: #0056b3;
+}
+
+.user-confirm-appointment button:active {
+  background-color: #004080;
+}
+
+.user-duration-select {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 18px;
+  height: 50px;
+}

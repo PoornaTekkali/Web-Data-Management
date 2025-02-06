@@ -1,0 +1,137 @@
+.container {
+  display: flex;
+}
+
+.user-container {
+  margin: 0 auto;
+  padding: 20px;
+  padding-right: 20px;
+  overflow-x: auto;
+  overflow-y: auto;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../../../public/3734225.jpg");
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  display: flex;
+}
+
+
+
+
+/* Styles for mobile */
+@media (max-width: 600px) {
+  .user-container {
+    background-size: 100% 100%;
+    background-position: center;
+  }
+.user-data {
+  flex: 1; /* Take remaining space */
+  padding-top: 10%;
+  margin-right: 5%;
+
+  /*padding-left: 25%;*/
+}
+
+.sidebar {
+    /*background-color: rgb(3 15 39 / 96%);*/
+    padding: 2%;
+    height: auto;
+}
+.sidebar button {
+    font-size: small;
+}
+
+
+}
+
+
+@media (min-width: 601px) {
+.user-data {
+  flex: 1; /* Take remaining space */
+  padding-top: 5%;
+  /*padding-left: 25%;*/
+}
+
+}
+
+.profile-container {
+  flex: 1; /* Take remaining space */
+  padding: 20px;
+}
+
+.sidebar {
+  /*width: 300px;  Adjust width as needed */
+  /*padding: 20px;*/
+  margin-top: 3%;
+  /*padding-top: 10%;*/
+  /*height: 100%;*/
+  position: fixed;
+}
+
+button img {
+  margin-right: 10px; /* Add some margin between the image and text */
+}
+
+.sidebar button {
+  display: flex; /* Use flexbox to align items */
+  align-items: center; /* Align items vertically */
+}
+
+.sidebar button {
+  /*display: block;*/
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  font-size: large;
+
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.hide-sidebar {
+  width: 0; /* Set the width of the sidebar to 0 to hide it */
+}
+
+.medical-history-drop-down {
+  background-color: rgb(3 15 39 / 96%);
+  border-radius: 25px;
+  padding: 10%;
+  text-align: center;
+}
+
+.medical-record-drop-down {
+    background-color: rgb(3 15 39 / 96%);
+  border-radius: 25px;
+  padding: 10%;
+  text-align: center;
+}
+
+
+
+.sidebar img { 
+  width: 40px;
+  height: 40px;
+ }
+
+
+/* Styles for mobile */
+@media (max-width: 767px) {
+.sidebar img {
+  width: 30px;
+  height: 30px;
+}
+
+.sidebar button {
+    font-size: small;
+}
+
+}
+

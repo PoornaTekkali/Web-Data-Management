@@ -1,0 +1,65 @@
+.dataoversight {
+  background-color: rgb(3 15 39 / 96%);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 60%;
+  margin-left: 25%;
+}
+
+
+
+/* Styles for mobile */
+@media (max-width: 767px) {
+.dataoversight {
+  width: auto;
+    margin-left: 0%;
+
+}
+}
+
+
+.dataoversight h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dataoversight button {
+width: auto;
+}
+
+
+.dataoversight table {
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+.dataoversight table th,
+.dataoversight table td {
+  border: 0px solid white;
+  padding: 10px;
+  text-align: left;
+
+}
+
+.dataoversight tr:hover{
+  background-color: black;
+}
+
+/*table th {
+  background-color: #f2f2f2;
+}*/
+
+/*.dataoversight table tr:nth-child(even) {
+  background-color: rgb(3 15 39 / 96%);
+}*/
+
+#dataoversight-table tr {
+  background-color: rgb(1 71 175);
+  border-radius: 20%;
+  border: 2px solid black;
+}
+
+

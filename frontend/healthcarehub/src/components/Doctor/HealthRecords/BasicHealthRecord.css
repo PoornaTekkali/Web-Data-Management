@@ -1,0 +1,95 @@
+.health-records {
+  background-color: rgb(3 15 39 / 96%);
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 30%;
+  margin-left: 30%;
+}
+
+
+/* Styles for mobile */
+@media (max-width: 767px) {
+.health-records {
+  margin-left: 0%;
+  width: 80%;
+  } 
+.health-records  h2{
+  font-size: 20px;
+}
+
+    .health-records input[type="text"] {
+    height: auto;
+    margin-bottom: 5px;
+  }
+}
+
+
+
+.health-records h2 {
+  margin-bottom: 20px;
+  /*font-size: 30px;*/
+  color: white;
+  text-align: center;
+
+}
+
+.health-records form {
+  margin-bottom: 20px;
+}
+
+.health-records label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+  /*font-size: 105%;*/
+}
+
+.health-records input[type="text"] {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  border-radius: 10px;
+  color: black;
+  height: 30px;
+ font-weight: bold;
+}
+
+
+.health-records button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.health-records button:hover {
+  background-color: #0056b3;
+}
+
+.health-records div {
+  margin-bottom: 20px;
+}
+
+.health-records p {
+  margin: 10px 0;
+}
+
+
+.health-records .input-row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.health-records.input-row > div {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.health-records .input-row > div:last-child {
+  margin-right: 0;
+}

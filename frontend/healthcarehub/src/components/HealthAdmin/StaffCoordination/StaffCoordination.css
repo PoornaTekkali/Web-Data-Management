@@ -1,0 +1,58 @@
+.staff-container{
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding-right: 20px;
+    overflow-x: auto;
+    overflow-y: auto;
+    background-size: cover;
+    background-position: center;
+    border-collapse: collapse;
+    background-color: rgb(3 15 39 / 96%); /* Transparent black background */
+    width: 60%;
+    margin-left: 20%;
+    color: white;
+}
+
+/* Styles for mobile */
+@media (max-width: 767px) {
+.staff-container{
+  width: 90%;
+    margin-left: 0%;
+  }
+}
+
+.staff-list select {
+    width: max-content;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.staff-coordination-container {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 0;
+    padding: 20px;
+  }
+
+  .staff-heading{
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 3%;
+    color: white;
+    font-size: 30px;
+}
+  
+  .staff-list table {
+    width: 100%;
+    border-collapse: collapse;
+    /*background-color: rgba(0, 0, 0, 0.5);*/
+    color: white; /* White text color */
+  }
+  
+  .staff-list th, .staff-list td {
+    border: 1px black;
+    padding: 8px;
+    text-align: left;
+  }
+  

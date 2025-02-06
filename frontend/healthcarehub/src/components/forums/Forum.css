@@ -1,0 +1,156 @@
+.forum-container {
+    margin: 0 auto;
+    padding: 20px;
+    padding-right: 20px;
+    overflow-x: auto;
+    overflow-y: auto;
+    background-size: cover;
+    background-position: center;
+    background-image: url("../../../public/3734225.jpg");
+    height: 100%;
+    position: fixed;
+    width: 100%;
+  }
+  
+
+  .forum-pagination-container label{
+    width: 30%;
+    padding: 10px;
+    font-size: 18px;
+    height: 40px;
+    color: white;
+  }
+  
+  .forum-pagination-container select{
+    width: 25%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+    height: 40px;
+  }
+  
+  .forum-heading {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 3%;
+    color: black;
+    font-size: 40px;
+  }
+  
+  .forum-filter-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    padding: 2%;
+    margin-bottom: 20px;
+    padding: 2%;
+  }
+  
+  .forum-filter-container select {
+    width: 239px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    height: 45px;
+  }
+  
+  .forum-filter-container input{
+    width: 400px;
+    height: 30px;
+  }
+  
+  .forum-filter-container button {
+        margin-top: 20px; 
+      padding: 10px 20px;
+      background-color: #1e3a8a;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      width: 15rem;
+      height: 3rem;
+      font-size: 24px;
+  } 
+  
+  
+  .forum-list {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      align-content: center;
+  }
+  
+  
+  .forum-card {
+    background-color: rgb(28 27 27 / 80%);
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 90px;
+    display: flex;
+    width: 80%;
+    color: white;
+  }
+  
+
+.answer-section {
+  background-color: rgb(28 27 27 / 80%);
+  padding: 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-top: 10px;
+  width: 70%;
+  color: white;
+}
+.answer-section textarea {
+    width: 90%;
+    margin-top: 2%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1.5px solid #ccc;
+    resize: none;
+}
+
+  .answer {
+    background-color: rgb(28 27 27 / 80%);
+    padding: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 80%;
+    color: white;
+}
+
+  .left-section {
+    display: flex;
+    align-items: center;
+  }
+  
+
+  
+  
+  .healthforum-pagination-container {
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+  }
+  
+  .healthforum-pagination-buttons button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .healthforum-description {
+    max-height: 3em; /* Adjust as needed for two lines */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2; /* Number of lines to show */
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+  }

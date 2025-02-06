@@ -1,0 +1,87 @@
+/* ServicePage.css */
+
+.maincontainer {
+  margin: 0 auto;
+  padding-top: 20px;
+  overflow-x: auto;
+  overflow-y: auto;
+  background-size: cover;
+  background-position: center;
+  background-image: url("../../../public/3734225.jpg");
+  height: 100vh; /* Changed to viewport height */
+  width: 100%;
+  position: fixed;
+  align-items: center;
+}
+
+.service-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px;
+  margin-top: 40px;
+  background-color: rgba(3, 15, 39, 0.96); /* Updated background color with rgba */
+  color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.service-container p{
+  font-size: 12px;
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px; /* Reduced gap between services */
+}
+
+.service-category {
+  background-color: #eeeeec;
+  border-radius: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: calc(42% - 5px); /* Adjusted width */
+  text-align: left;
+}
+
+.service-category img {
+  width: 80px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.service-category h3 {
+  color: black;
+}
+
+.service-category p {
+  color: #050101ba;
+}
+
+.service-category ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.service-category ul li {
+  color: #666666;
+  margin-bottom: 10px;
+}
+
+.service-category ul li:before {
+  content: "•";
+  color: #007bff;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+  .service-category {
+    width: auto;
+  }
+}
